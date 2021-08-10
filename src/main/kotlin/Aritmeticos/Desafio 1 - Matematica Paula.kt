@@ -17,16 +17,15 @@ fun main(args: Array<String>) {
 //    val N = readLine()!!.toInt()
 //    for (i in 1..(N)) {
 //        var num  =  readLine()!!.toString()
-        var num = "4A5"
-        val n1= num.first().toString().toInt()
-        val n2= num.last().toString().toInt()
-        if (n1 == n2) {println(n1*n2)}
-        else {
-            if (num == num.toUpperCase()) {
-                println(n2 - n1)
-            } else {
-                println(n1 + n2)
-            }
+    var num = "4A5"
+    val n1 = num.first().toString().toInt()
+    val n2 = num.last().toString().toInt()
+    if (n1 == n2) { println(n1 * n2) } else {
+        if (num == num.toUpperCase()) {
+            println(n2 - n1)
+        } else {
+            println(n1 + n2)
         }
+    }
 //    }
 }
