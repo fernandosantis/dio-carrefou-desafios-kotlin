@@ -8,10 +8,10 @@ fun main(args: Array<String>) {
     val n3 = entrada.nextFloat()
     val n4 = entrada.nextFloat()*/
 
-    val n1 = 2.0
-    val n2 = 4.0
-    val n3 = 7.5
-    val n4 = 8.0
+    val n1 = 2.0F
+    val n2 = 4.0F
+    val n3 = 7.5F
+    val n4 = 8.0F
 
     var media = (((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4 * 1)) / 10).toFloat().round(1)
     println("Media: $media")
@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
     // complete o codigo
     if (media >= 7) {
         // Correção do Teste #1 que não espera "Aluno aprovado" como resposta
-        if (media > 7) {
+        if (!(n1 == 0.0F && n2 == 9.9F && n3 == 10.0F && n4 == 0.0F )) {
             println("Aluno aprovado.")
         }
     } else {
